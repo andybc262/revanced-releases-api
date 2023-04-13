@@ -15,7 +15,7 @@ services:
     container_name: revanced-releases-api
     image: ghcr.io/revanced/revanced-releases-api:latest
     environment:
-      - GITHUB_TOKEN=YOUR_GITHUB_TOKEN
+      - GITHUB_TOKEN=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
       - REDIS_URL=revanced-releases-api-redis
       - REDIS_PORT=6379
       - HYPERCORN_HOST=0.0.0.0
